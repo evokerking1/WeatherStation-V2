@@ -34,7 +34,7 @@ def calculate_speed(time_sec):
     return km_per_hour
 
 wind_speed_sensor = Button(5)
-wind_speed_sensor.when_activated = spin()
+wind_speed_sensor.when_pressed = spin()
 
 def reset_wind():
     global wind_count
